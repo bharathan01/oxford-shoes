@@ -1,0 +1,40 @@
+<body>
+    <section class="category">
+        <div class="sub_category">
+            <a routerLink="allProducts" > <div class="items view"><img src="https://i.postimg.cc/VL1z94DH/view-all.jpg" alt=""></div></a>
+            <a routerLink="allProducts"  ><div class="items men"><img src="https://i.postimg.cc/Ls7xRCJ9/mens.jpg" alt=""> </div></a>
+            <div routerLink="allProducts" class="items women"><img src="https://i.postimg.cc/jjJz6sjT/ledys.jpg" alt=""></div>
+            <div routerLink="allProducts" class="items formal"><img src="https://i.postimg.cc/5yk0kCPR/formal.jpg" alt=""></div>
+            <div routerLink="allProducts" class="items casuals"><img src="https://i.postimg.cc/9XGH8TkR/casuals.png" alt=""></div>
+            <div routerLink="allProducts" class="items slipers"><img src="https://i.postimg.cc/xTCgJVLf/slipers.jpg" alt=""></div>
+            <div routerLink="allProducts" class="items boots"><img src="https://i.postimg.cc/DZ0mQ66X/boots.jpg" alt=""></div>
+        </div>
+
+    </section>
+
+   <section class="section_card">
+    <div class="heading">
+        <div class="collections">
+            <span>NEW ARRIVAL</span>
+        </div>
+        <div class="view_all">
+            <a routerLink="allProducts"><span>View all</span></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" *ngFor=" let i of productsList " routerLink="">
+            <a class="card_veiw"routerLink="ViewProduct/{{i.id}}"><div >
+                <div class="card_img">
+                    <img src="{{i.productImage}}" alt="">
+                </div>
+                <div class="card_title">
+                    <span>{{i.productName}}</span><br>
+                    <span>{{i.price}}</span><br>
+                </div>
+
+            </div></a>
+            
+        </div>
+    </div>
+   </section>
+</body>

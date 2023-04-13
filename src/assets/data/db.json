@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "productName": "flip flops",
+      "categoryId": "1",
+      "gender": "female",
+      "discription": "Quality flip flops men slippers designers brand beach summer man sandals nice casual anti travel mens rope handmade male toe ",
+      "price": "$30.00",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/fLT4gpyq/Quality-flip-flops-men-slippers-designers-brand-beach-summer-man-sandals-nice-casual-anti-travel-men.jpg",
+      "rating": "4.4",
+      "review": "143",
+      "vendorName": "AliExpress",
+      "warrenty": "1"
+    },
+    {
+      "id": 3,
+      "productName": "Formal Shoe",
+      "categoryId": "3",
+      "gender": "male",
+      "discription": "Handmade Mens Wingtip Oxford Shoes Grey Leather Brogue Men's Dress Shoes Classic Business Formal Shoes for Men Zapatillas Hombre",
+      "price": "$25.07",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/htT6pcD1/Handmade-Mens-Wingtip-Oxford-Shoes-Grey-Leather-Brogue-Men-s-Dress-Shoes-Classic-Business-Formal-Sho.jpg",
+      "rating": "4.5",
+      "review": "134",
+      "vendorName": "AliExpress",
+      "warrenty": "2"
+    },
+    {
+      "id": 5,
+      "productName": "BOOTS",
+      "categoryId": "5",
+      "discription": "2022 Autumn New Leather Boots For Men Black Boots Platform Fashion Ankle Boots All-match Men's Fashion Boots Casual Men Sneakers",
+      "price": "$38.25",
+      "gender": "male",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/c1cQ7jGt/download.jpg",
+      "rating": "4.9",
+      "review": "240",
+      "vendorName": "AliExpress",
+      "warrenty": "1"
+    },
+    {
+      "id": 6,
+      "productName": "Casual Shoes",
+      "categoryId": "6",
+      "gender": "male",
+      "discription": "2022 Men's Shoes Men's Shoes Work Labor Insurance Shoes Casual Leather Shoes All-match Waterproof Non-slip Leather Sneakers",
+      "price": "$37.05",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/sx6N8gqv/2022-Men-s-Shoes-Men-s-Shoes-Work-Labor-Insurance-Shoes-Casual-Leather-Shoes-All-match-jpg-Q90-jpg.webp",
+      "rating": "4.5",
+      "review": "345",
+      "vendorName": "AliExpress",
+      "warrenty": "2"
+    },
+    {
+      "id": 7,
+      "productName": "Casual Shoes",
+      "categoryId": "6",
+      "gender": "male",
+      "discription": "2022 Men's Shoes Men's Shoes Work Labor Insurance Shoes Casual Leather Shoes All-match Waterproof Non-slip Leather Sneakers",
+      "price": "$37.05",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/CKckbnqB/VT-Men-s-New-Casual-Shoes-High-Quality-Men-s-Sports-Shoes-1-1-Production-Business-jpg-Q90-jpg.webp",
+      "rating": "4.5",
+      "review": "345",
+      "vendorName": "AliExpress",
+      "warrenty": "2"
+    },
+    {
+      "id": 8,
+      "productName": "Womens",
+      "gender": "female",
+      "categoryId": "5 ",
+      "discription": "2022 Shoes women's   Work Labor Insurance Shoes Casual Leather Shoes All-match Waterproof Non-slip Leather Sneakers",
+      "price": "$37.05",
+      "isAvailable": "true",
+      "productImage": "https://i.postimg.cc/Vvhz8SF2/Shoes-women-s-jpg-Q90-jpg.jpg",
+      "rating": "4.5",
+      "review": "345",
+      "vendorName": "AliExpress",
+      "warrenty": "2"
+    },
+    {
+      "id": 9,
+      "productName": "formal",
+      "categoryId": "1",
+      "gender": "male",
+      "discription": "Luxury High Quality Men Shoes Fashion Casual Shoes Male Pointed Oxford Wedding Leather Dress Shoes Men Gentleman Office Shoes",
+      "price": " $50.30",
+      "isAvailable": "",
+      "productImage": "https://i.postimg.cc/xj5Z46VB/flat-black-shoe-for-fashion-mens-shoes-hot-masculino-2020-sale-male-mens-causal-Mens-leisure-jpg-Q90.jpg",
+      "rating": "4.5",
+      "review": "124",
+      "vendorName": "AliExpress",
+      "warrenty": "1"
+    }
+  ]
+}

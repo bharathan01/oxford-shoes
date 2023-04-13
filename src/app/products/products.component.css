@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    height: 670px;
+    background-image: url('https://i.postimg.cc/d0DQ7nN9/angryimgok.png');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    top: 0px;
+
+}
+.main_body{
+    width: 100%;
+    height: 656px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_left{
+    width: 48%;
+    height: 650px;
+    display: grid;
+    place-items: center;
+
+}
+.body_right{
+    width: 48%;
+    height: 650px;
+    display: grid;
+    place-items: center;
+}
+.body_right img{
+    width: 85%;
+    height: 85%;
+    margin-bottom: 35px;
+    
+}
+.body_txt{
+    width: 55%;
+    height: 50%;
+    display: grid;
+    margin-bottom: 50px;
+}
+.get{
+    font-size: 100px;
+    float: left;
+}
+.ready{
+    font-size: 20vh;
+    color: white;
+}
+.shop{
+    font-size: 100px;
+}
+.quot{
+    font-size: medium;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media(max-width:975px) {
+    .get{
+        font-size: 70px;
+        float: left;
+      }
+      .ready{
+        font-size: 70px;
+        float: left;
+      }
+      .shop{
+        font-size: 70px;
+        
+      }
+    
+    
+}
+@media (max-width:680px) {
+    .body_left{
+        width: 90%;
+        height: 361px;
+        display: grid;
+        place-items: center;
+        position: relative;
+        top: -150px;
+      }
+      .main_body {
+        width: 100%;
+        height: 610px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        place-content: center;
+      }
+      .body_right {
+        width: 100%;
+        height: 376px;
+        display: grid;
+        place-items: center;
+        display: inherit;
+        position: absolute;
+        top: 380px;
+      }
+
+    
+}

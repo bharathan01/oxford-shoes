@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: black;
+    width: 100%;
+   
+}
+.ads{
+    width: 100%;
+    height: auto;
+
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 70px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+.hov_effct{
+ border-bottom: none;
+ transition: 0.2s ease-in-out;
+ background-color: black
+ 
+}
+.hov_effct:hover:focus{
+    border-bottom: 4px solid red;
+    transform: scaleX(1.2);
+}
+.hov_effct:hover{
+    border-bottom: 4px solid red;
+    transform: scaleX(1.2);
+
+}
+
+.carosel_view{
+    width: 100%;
+    height:330px;
+   
+
+}
+.carosel_image{
+    width: 100%;
+    height: 200px;
+
+}
+.products{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_view{
+   width: 200px;
+    height: 200px;
+}
+.carosel_btn{
+    z-index: 0;
+}
+@media(max-width:800px){
+    .cr_height{
+        height: 200px;
+    }
+    .carosel_view{
+        width: 100%;
+        height:200px;
+       
+    
+    }
+
+}
