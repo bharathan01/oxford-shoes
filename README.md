@@ -1,5 +1,13 @@
 # Oxfordshoes
 
+it's a shoping website created using angular,REST API,json Web Server | the website containe different type of fashion accessories.
+
+How to Run
+- Go to the Main folder(oxfordshoes) - ng s -o
+-To run the server goto src\assets\data - npx json-server --watch db.json --port (port number eg:3000)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
 ## Development server
